@@ -75,5 +75,13 @@ namespace LambdaExpression
             Display(Result);
         }
 
+        public void RemoveRecords()
+        {
+            Console.WriteLine();
+            Person Result = this.personList.Find(x => x.Name == "Tomesh");
+            this.personList.Remove(Result);
+            Display(this.personList);
+        }
+
     }
 }

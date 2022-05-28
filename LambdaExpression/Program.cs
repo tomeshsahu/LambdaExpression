@@ -14,6 +14,7 @@ class Program
         management.AvarageRecords();
         management.GetValue();
         management.SkipRecords();
+        management.RemoveRecords();
         Console.ReadLine();
     }
 }
