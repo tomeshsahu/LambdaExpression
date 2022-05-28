@@ -53,5 +53,20 @@ namespace LambdaExpression
             Console.WriteLine(Result);
         }
 
+        public void GetValue()
+        {
+            Console.WriteLine();
+            var result = this.personList.Where(x => x.Name == "Tomesh");
+            if (result != null)
+            {
+                Console.WriteLine("Name Is Present In List");
+            }
+            else
+            {
+                Console.WriteLine("Name Is Present In List");
+            }
+            Display(result);
+        }
+
     }
 }

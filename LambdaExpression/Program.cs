@@ -12,6 +12,7 @@ class Program
         management.GetTopRecords();
         management.GetRecords();
         management.AvarageRecords();
+        management.GetValue();
         Console.ReadLine();
     }
 }
