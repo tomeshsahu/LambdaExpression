@@ -37,5 +37,13 @@ namespace LambdaExpression
             Display(Result);
         }
 
+        public void GetRecords()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Get Records between 13 to 18 age ");
+            var result = this.personList.Where(x => x.Age > 13 && x.Age < 18);
+            Display(result);
+        }
+
     }
 }

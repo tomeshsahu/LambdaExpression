@@ -10,6 +10,7 @@ class Program
         lambdaExp management = new lambdaExp();
         management.AddDefaultData();
         management.GetTopRecords();
+        management.GetRecords();
         Console.ReadLine();
     }
 }
