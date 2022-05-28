@@ -9,6 +9,7 @@ class Program
         Console.WriteLine("-------Welcome To Person Data Management Program------");
         lambdaExp management = new lambdaExp();
         management.AddDefaultData();
+        management.GetTopRecords();
         Console.ReadLine();
     }
 }

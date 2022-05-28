@@ -28,6 +28,14 @@ namespace LambdaExpression
                 Console.WriteLine(person.SSN + " " + person.Name + " " + person.Address + " " + person.Age);
             }
         }
+        
+        public void GetTopRecords()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Get Top Two Record ");
+            var Result = this.personList.Where(x => x.Age < 60).Take(2);
+            Display(Result);
+        }
 
     }
 }
