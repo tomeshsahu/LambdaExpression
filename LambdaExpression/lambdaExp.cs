@@ -68,5 +68,12 @@ namespace LambdaExpression
             Display(result);
         }
 
+        public void SkipRecords()
+        {
+            Console.WriteLine();
+            var Result = this.personList.Skip(this.personList.Where(x => x.Age < 60).Count());
+            Display(Result);
+        }
+
     }
 }
