@@ -11,6 +11,7 @@ class Program
         management.AddDefaultData();
         management.GetTopRecords();
         management.GetRecords();
+        management.AvarageRecords();
         Console.ReadLine();
     }
 }

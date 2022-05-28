@@ -45,5 +45,13 @@ namespace LambdaExpression
             Display(result);
         }
 
+        public void AvarageRecords()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Age Average ");
+            var Result = this.personList.Average(x => x.Age);
+            Console.WriteLine(Result);
+        }
+
     }
 }
